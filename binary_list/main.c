@@ -20,6 +20,7 @@ void solution()
 
 void Try(int k)
 {
+    int v;
     for (int v=0;v<=1;v++){
         if (check(v,k)){
             x[k]=v;
