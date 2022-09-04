@@ -5,7 +5,8 @@
 int cnt,n,x[N];
 int check(int v, int k)
 {
-    return 1;
+    if (k == 1) return 1;
+    return x[k-1] + v <= 1; //forbidden 1 and 1 side by side
 }
 
 void solution()
