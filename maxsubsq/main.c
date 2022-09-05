@@ -12,7 +12,7 @@ void input()
     }
 }
 
-int algo1()
+int algo1() //O(n^3)
 {
     int ans = -1000000;
     for (int i=1;i<=n;i++){
@@ -30,7 +30,7 @@ int algo1()
 }
 
 
-int algo2()
+int algo2() //O(n^2)
 {
     int ans = -1000000;
     for (int i=1;i<=n;i++){
@@ -43,7 +43,7 @@ int algo2()
     return ans;
 }
 
-int algo3()
+int algo3() //O(n)
 {
     s[1]=a[1];
     int ans=s[1];
